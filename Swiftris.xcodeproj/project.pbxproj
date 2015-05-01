@@ -14,6 +14,7 @@
 		D9CA5A2B1AF3FD9300EDA33B /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = D9CA5A251AF3FD9300EDA33B /* whitebg.png */; };
 		D9CA5A2C1AF3FD9300EDA33B /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9CA5A261AF3FD9300EDA33B /* whitebg@2x.png */; };
 		D9CA5A2E1AF3FE0200EDA33B /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A2D1AF3FE0200EDA33B /* Array2D.swift */; };
+		D9CA5A301AF4010C00EDA33B /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5A2F1AF4010C00EDA33B /* Block.swift */; };
 		D9DD0BF01AF3F349005D9F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD0BEF1AF3F349005D9F1F /* AppDelegate.swift */; };
 		D9DD0BF41AF3F349005D9F1F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD0BF31AF3F349005D9F1F /* GameScene.swift */; };
 		D9DD0BF61AF3F349005D9F1F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD0BF51AF3F349005D9F1F /* GameViewController.swift */; };
@@ -43,6 +44,7 @@
 		D9CA5A251AF3FD9300EDA33B /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
 		D9CA5A261AF3FD9300EDA33B /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
 		D9CA5A2D1AF3FE0200EDA33B /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		D9CA5A2F1AF4010C00EDA33B /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		D9DD0BEA1AF3F349005D9F1F /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DD0BEE1AF3F349005D9F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9DD0BEF1AF3F349005D9F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				D9DD0C141AF3F4EC005D9F1F /* Sprites.atlas */,
 				D9DD0BED1AF3F349005D9F1F /* Supporting Files */,
 				D9CA5A2D1AF3FE0200EDA33B /* Array2D.swift */,
+				D9CA5A2F1AF4010C00EDA33B /* Block.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			files = (
 				D9DD0BF41AF3F349005D9F1F /* GameScene.swift in Sources */,
 				D9CA5A2E1AF3FE0200EDA33B /* Array2D.swift in Sources */,
+				D9CA5A301AF4010C00EDA33B /* Block.swift in Sources */,
 				D9DD0BF61AF3F349005D9F1F /* GameViewController.swift in Sources */,
 				D9DD0BF01AF3F349005D9F1F /* AppDelegate.swift in Sources */,
 			);
