@@ -14,6 +14,9 @@
 		D9DD0BFB1AF3F349005D9F1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DD0BFA1AF3F349005D9F1F /* Images.xcassets */; };
 		D9DD0BFE1AF3F349005D9F1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9DD0BFC1AF3F349005D9F1F /* LaunchScreen.xib */; };
 		D9DD0C0A1AF3F349005D9F1F /* SwiftrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD0C091AF3F349005D9F1F /* SwiftrisTests.swift */; };
+		D9DD0C151AF3F4EC005D9F1F /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = D9DD0C131AF3F4EC005D9F1F /* Sounds */; };
+		D9DD0C161AF3F4EC005D9F1F /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D9DD0C141AF3F4EC005D9F1F /* Sprites.atlas */; };
+		D9DD0C181AF3F507005D9F1F /* Images in Resources */ = {isa = PBXBuildFile; fileRef = D9DD0C171AF3F507005D9F1F /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		D9DD0C031AF3F349005D9F1F /* SwiftrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DD0C081AF3F349005D9F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9DD0C091AF3F349005D9F1F /* SwiftrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftrisTests.swift; sourceTree = "<group>"; };
+		D9DD0C131AF3F4EC005D9F1F /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		D9DD0C141AF3F4EC005D9F1F /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		D9DD0C171AF3F507005D9F1F /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,8 @@
 				D9DD0BF71AF3F349005D9F1F /* Main.storyboard */,
 				D9DD0BFA1AF3F349005D9F1F /* Images.xcassets */,
 				D9DD0BFC1AF3F349005D9F1F /* LaunchScreen.xib */,
+				D9DD0C131AF3F4EC005D9F1F /* Sounds */,
+				D9DD0C141AF3F4EC005D9F1F /* Sprites.atlas */,
 				D9DD0BED1AF3F349005D9F1F /* Supporting Files */,
 			);
 			path = Swiftris;
@@ -93,6 +101,7 @@
 		D9DD0BED1AF3F349005D9F1F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D9DD0C171AF3F507005D9F1F /* Images */,
 				D9DD0BEE1AF3F349005D9F1F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -197,7 +206,10 @@
 			files = (
 				D9DD0BFE1AF3F349005D9F1F /* LaunchScreen.xib in Resources */,
 				D9DD0BFB1AF3F349005D9F1F /* Images.xcassets in Resources */,
+				D9DD0C151AF3F4EC005D9F1F /* Sounds in Resources */,
 				D9DD0BF91AF3F349005D9F1F /* Main.storyboard in Resources */,
+				D9DD0C181AF3F507005D9F1F /* Images in Resources */,
+				D9DD0C161AF3F4EC005D9F1F /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
